@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 50vh;
+    background: url(images/greenCircle.png)no-repeat;
+    background-position: cover;
+
+}
+
+.header-content-container {
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    font-size: 7vw;
+    font-weight: 700;
+    margin: 0;
+    color: rgb(125, 154, 31);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#sub-title p {
+    font-size: 2vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    text-align: right;
+    color: rgb(118, 30, 30);
+}
+
+.intro-with-form {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.intro img {
+    width: 70%;
+}
+
+.intro-text {
+    position: absolute;
+    top: 13%;
+    left: 25%;
+    width: 20%;
+    font-size: 24px;
+    background-color: rgba(220, 39, 11, 0.565);
+    padding: 3% 5%;
+    border-radius: 30%;
+    text-align: right;
+    color: white;
+}
+
+.intro-text-title {
+    font-size: 3vw;
+    color: white;
+}
+
+#patient-name {
+    color: rgb(12, 77, 12);
+
+}
+
+.signup-form {
+    width: 50%;
+    text-align: center;
+}
+
+.signup-form form label {
+    font-size: 24px;
+    color: slategray;
+}
+
+.signup-form form input,
+textarea {
+    margin-top: 1%;
+    margin-bottom: 5%;
+    width: 50%;
+    padding: 2%;
+    border-radius: 8px;
+    border: 1px solid slategrey;
+}
+
+#sign-up-btn {
+    border: 0;
+    background-color: rgba(220, 39, 11, 0.565);
+    font-size: 22px;
+    color: white;
+}
+
+#testimonials {
+    padding: 2%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+#testimonials div {
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 5px 10px 18px #888888;
+
+}
+
+#testimonials img {
+    width: 10%;
+    border-radius: 50%;
+}

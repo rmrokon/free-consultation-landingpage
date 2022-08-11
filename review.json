@@ -1,0 +1,44 @@
+[
+    {
+        "_id": "624acb66e85d78cae40beac7",
+        "picture": "https://randomuser.me/api/portraits/men/23.jpg",
+        "rating": 4,
+        "name": "Torres Dillard",
+        "review": "The texture of the controller is one of the best, for casual gaming on my computer I love this controller. This is coming from somebody whose used a PS4 controller for the past four years. The buttons are a bit too loud but its not too much of a problem for me. if youre buying this controller to use on a PC I highly recommend the dongle as it will make your experience extremely better unless you have a really good bluetooth signal."
+    },
+    {
+        "_id": "624acb66434f3b7aef135c72",
+        "picture": "https://randomuser.me/api/portraits/men/27.jpg",
+        "rating": 3,
+        "name": "Graham Nielsen",
+        "review": "Quality is good. Slightly, but noticeably heavier than our other controllers. I added pictures of our rechargable battery packs because the dimensions are clearly different. I would have just bought the controllers in the store had I known these battery packs wouldn't fit flush. I've never ran into this issue so I'm curious as to why this controllers specs are different? Other than that it works as intended just unsightly with the rechargable packs."
+    },
+    {
+        "_id": "624acb6608f7502837029cac",
+        "picture": "https://randomuser.me/api/portraits/men/73.jpg",
+        "rating": 5,
+        "name": "Rios Mcconnell",
+        "review": "I was initially pretty reserved on buying this controller but when I found the refurbished price, it was hard to pass up. I was scared the controller wouldn’t work right or have sticky buttons but other than a slightly damaged box, there were no issues with mine. It came fast and everything works as advertised. Great product!"
+    },
+    {
+        "_id": "624acb66a2c55e69d3255294",
+        "picture": "https://randomuser.me/api/portraits/women/67.jpg",
+        "rating": 4,
+        "name": "Sophia Burks",
+        "review": "Works perfect, for refurbished, you really can't tell."
+    },
+    {
+        "_id": "624acb661696f50250aa90a9",
+        "picture": "https://randomuser.me/api/portraits/men/57.jpg",
+        "rating": 3,
+        "name": "Richmond Crawford",
+        "review": "It functions, but there's a few dings and scratches around the charging port, and it should be noted that this doesn't come with either a charging cable or batteries...not even the AA batteries that would have come with it originally, much less a rechargeable battery."
+    },
+    {
+        "_id": "624acb66d6aab0ba9ddbfbf5",
+        "picture": "https://randomuser.me/api/portraits/women/21.jpg",
+        "rating": 3,
+        "name": "Lloyd Carney",
+        "review": "It functions, but there's a few dings and scratches around the charging port, and it should be noted that this doesn't come with either a charging cable or batteries...not even the AA batteries that would have come with it originally, much less a rechargeable battery."
+    }
+]
