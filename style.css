@@ -5,8 +5,7 @@ body {
 header {
     height: 50vh;
     background: url(images/greenCircle.png)no-repeat;
-    background-position: cover;
-
+    background-position: center;
 }
 
 .header-content-container {
@@ -20,7 +19,10 @@ header {
     font-size: 7vw;
     font-weight: 700;
     margin: 0;
-    color: rgb(125, 154, 31);
+    color: white;
+    background-color: rgba(215, 138, 4, 0.644);
+    padding: 12px;
+    border-radius: 8px 8px 0 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
@@ -30,6 +32,9 @@ header {
     font-weight: 700;
     text-align: right;
     color: rgb(118, 30, 30);
+    background-color: rgba(215, 138, 4, 0.644);
+    padding: 8px;
+    border-radius: 8px 0 8px 0;
 }
 
 .intro-with-form {
@@ -43,7 +48,7 @@ header {
 }
 
 .intro img {
-    width: 70%;
+    width: 100%;
 }
 
 .intro-text {
@@ -52,7 +57,7 @@ header {
     left: 25%;
     width: 20%;
     font-size: 24px;
-    background-color: rgba(220, 39, 11, 0.565);
+    background-color: rgba(215, 138, 4, 0.644);
     padding: 3% 5%;
     border-radius: 30%;
     text-align: right;
@@ -65,7 +70,8 @@ header {
 }
 
 #patient-name {
-    color: rgb(12, 77, 12);
+    color: rgb(209, 220, 209);
+    font-size: 32px;
 
 }
 
@@ -91,9 +97,16 @@ textarea {
 
 #sign-up-btn {
     border: 0;
-    background-color: rgba(220, 39, 11, 0.565);
+    background-color: rgba(215, 138, 4, 0.644);
     font-size: 22px;
     color: white;
+}
+
+.testimonials-sec h2 {
+    margin-top: 10%;
+    font-size: 32px;
+    text-align: center;
+    color: #888888;
 }
 
 #testimonials {
@@ -114,4 +127,60 @@ textarea {
 #testimonials img {
     width: 10%;
     border-radius: 50%;
+}
+
+@media screen and (max-width: 688px) {
+    header {
+        background-size: cover;
+    }
+
+    .header-content-container {
+        flex-direction: column;
+    }
+
+    #title {
+        font-size: 10vw;
+    }
+
+    #sub-title p {
+        font-size: 5vw;
+        text-align: center;
+        color: white;
+    }
+
+    .intro-with-form {
+        flex-direction: column;
+    }
+
+    .intro-text {
+        width: 60%;
+        height: 40%;
+        padding: 10px;
+        font-size: 18px;
+        top: 5%;
+        left: 35%;
+        text-align: left;
+    }
+
+    .intro-text-title {
+        text-align: center;
+        font-size: 6vw;
+        color: white;
+    }
+
+    .signup-form {
+        margin: 20% 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .testimonials-sec h2 {
+        margin: 10% 0;
+    }
+
+    #testimonials {
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
 }
