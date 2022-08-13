@@ -24,4 +24,25 @@ function showData(reviews) {
     document.getElementById('testimonials').innerHTML = singleReview;
 }
 
+function timer() {
+    const end = new Date("aug 25, 2022 10:00:00").getTime();
+
+
+
+
+    const tickingTimer = setInterval(() => {
+        const start = new Date().getTime();
+        const diff = end - start;
+        const days = Math.floor(diff / (24 * 60 * 60 * 1000));
+        const hrs = Math.floor((diff % (24 * 60 * 60 * 1000)) / (60 * 60 * 1000));
+        const mins = Math.floor((diff % (60 * 60 * 1000)) / (60 * 1000));
+        const sec = Math.floor((diff % (1000 * 60)) / 1000);
+
+        document.getElementById('timer').innerHTML = `<h4> <span>${days} d</span> : <span>${hrs} h</span> : <span>${mins} m</span> : <span>${sec} s</span></h4>`
+    });
+
+
+}
+timer();
+
 
